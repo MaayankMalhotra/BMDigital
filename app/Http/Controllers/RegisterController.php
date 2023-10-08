@@ -9,7 +9,8 @@ class RegisterController extends Controller
 
     public function create()
     {
-        return view('Create');
+        echo"hello";
+        return view('register');
     }
 
     public function store(Request $request)
